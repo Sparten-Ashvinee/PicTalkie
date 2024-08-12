@@ -1,17 +1,21 @@
 # encoding: utf-8
 """
-@author:  sherlock
-@contact: sherlockliao01@gmail.com
+Final data work code
 """
 
 from torch.utils import data
 
-from .datasets.mnist import MNIST
+from .datasets.coco import CocoDataset
 from .transforms import build_transforms
+from torchvision.datasets import CocoCaptions
 
 
 def build_dataset(transforms, is_train=True):
-    datasets = MNIST(root='./', train=is_train, transform=transforms, download=True)
+    coco_dataset = CocoCaptions(root='DATA/coco128/images/train2017',
+                            annFile='DATA/coco128/labels/train2017',
+                            transform=transforms)
+    datasets = CocoDataset(coco_dataset,
+                           transform=transforms)
     return datasets
 
 

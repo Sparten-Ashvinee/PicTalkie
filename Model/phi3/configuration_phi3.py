@@ -15,7 +15,7 @@
 
 """Phi-3 model configuration"""
 
-from ...configuration_utils import PretrainedConfig
+from modeling.configuration_utils import PretrainedConfig
 from ...utils import logging
 
 
