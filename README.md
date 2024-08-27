@@ -1,4 +1,4 @@
-#Most of code are not yet revealed
+Most of code are not yet revealed
 # Requirements
 
 
