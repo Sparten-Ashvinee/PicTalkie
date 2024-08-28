@@ -27,13 +27,6 @@ Model Optimization: QLoRa (Quantized Low-Rank Approximations) is utilized to eff
 Audio Integration: Whisper is used to convert audio inputs to text. A custom projection layer is designed to align these inputs with the Phi Model.
 Evaluation Metrics: The model's performance is evaluated using standard metrics like accuracy, F1-score, BLEU score for text, and image-caption alignment scores. Extensive testing ensures robust performance across all modalities.
 
-### Resources
-   * [COCO128 Dataset](https://github.com/ultralytics/yolov5/blob/master/data/coco128.yaml)
-   * CLIP OpenAI: [CLIP GitHub](https://github.com/openai/CLIP)
-   * Whisper OpenAI: [Whisper GitHub](https://github.com/openai/whisper)
-   * Phi Model Microsoft: [Phi GitHub](https://github.com/microsoft/Phi-3CookBook) 
-   * QLoRa: [Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
-
 # Project structure
 ```
 ├──  DATA
@@ -74,6 +67,13 @@ Evaluation Metrics: The model's performance is evaluated using standard metrics 
 │     ├── __init__.py
 │     └── logger.py
 ```
+
+### Resources
+   * [COCO128 Dataset](https://github.com/ultralytics/yolov5/blob/master/data/coco128.yaml)
+   * CLIP OpenAI: [CLIP GitHub](https://github.com/openai/CLIP)
+   * Whisper OpenAI: [Whisper GitHub](https://github.com/openai/whisper)
+   * Phi Model Microsoft: [Phi GitHub](https://github.com/microsoft/Phi-3CookBook) 
+   * QLoRa: [Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
 
 
 # Future Work
