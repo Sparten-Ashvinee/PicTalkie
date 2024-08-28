@@ -1,8 +1,4 @@
 # encoding: utf-8
-"""
-Final data work code
-"""
-
 from torch.utils import data
 
 from .datasets.coco import CocoDataset
