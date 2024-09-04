@@ -29,7 +29,7 @@ Evaluation Metrics: The model's performance is evaluated using standard metrics 
 
 <img src="https://github.com/Sparten-Ashvinee/PicTalkie/blob/master/DATA/coco128/clip1.png">
 
-Here is an example of Phi3 model.
+Here is an example of Phi3 model from huggingface.
 ```python
 
 import torch
