@@ -28,6 +28,7 @@ Audio Integration: Whisper is used to convert audio inputs to text. A custom pro
 Evaluation Metrics: The model's performance is evaluated using standard metrics like accuracy, F1-score, BLEU score for text, and image-caption alignment scores. Extensive testing ensures robust performance across all modalities.
 
 <img src="https://github.com/Sparten-Ashvinee/PicTalkie/blob/master/DATA/coco128/clip.png">
+
 # Project structure
 ```
 ├──  DATA
